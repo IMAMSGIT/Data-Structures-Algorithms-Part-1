@@ -1,0 +1,2 @@
+We use Big O to describe
+the performance of an algorithm
