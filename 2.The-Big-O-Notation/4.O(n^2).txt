@@ -1,0 +1,12 @@
+public class Main {
+    public void log(int [] numbers){
+        for (int first:numbers)
+            for(int second:numbers)
+                System.out.println(first+","+numbers);
+    }
+}
+
+// The algorithm runs in quadratic time or n square
+// Doesn't matter if a loop exists outside the nested loop 
+// if there is another loop inside 
+the nested , it becomes n^3, more slower

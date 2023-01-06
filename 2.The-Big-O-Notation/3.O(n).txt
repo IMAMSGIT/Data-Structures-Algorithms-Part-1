@@ -1,0 +1,16 @@
+public class Main {
+    public void log(int [] numbers){
+        for (int i=0;i<numbers.length;i++)
+        System.out.println(numbers[i]);
+    }
+}
+
+// Here the exeacution time increases 
+As the input of the numbers array increases 
+Linked to it linearly,
+Marked as O(n),
+and It is true for any type of loop
+// note that if we add 2 print statements before or 
+after the loop, it doesn't matter
+// Also if ther is 2 loop 
+// same because complecity goes up related to input size linearly

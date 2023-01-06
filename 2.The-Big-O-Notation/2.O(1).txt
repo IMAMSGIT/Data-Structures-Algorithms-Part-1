@@ -1,0 +1,11 @@
+
+// As there is a statement prints out,
+// It takes a constant amount of time
+// It;s complexity is O(1)
+
+public class Main {
+    public void log(int [] numbers){
+        System.out.println(numbers[0]);
+        System.out.println(numbers[0]);
+    }
+}

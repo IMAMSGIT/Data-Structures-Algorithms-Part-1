@@ -1,0 +1,13 @@
+public class Main {
+    public void greet(String [] names){
+        // As the copy array depends on name array
+        // it is prportionate to O(n)
+        String [] copy = new String [name.length];
+        // i here allocates a constant space 
+        // complexity is 0(1)
+        for (int i=0;i<names.length;i++)
+            System.out.println("Hi"+names[i])
+    }
+}
+// For, Space complexity , we only look
+// the additional space we need to allocate

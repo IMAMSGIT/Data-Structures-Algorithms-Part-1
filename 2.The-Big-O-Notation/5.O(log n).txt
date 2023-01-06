@@ -1,0 +1,4 @@
+// It is most eficient
+It slows down in certain point
+// Ex. Binary Search
+// in 1M/19 comparison

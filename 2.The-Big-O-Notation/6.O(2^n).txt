@@ -1,0 +1,2 @@
+// Exponential growth
+// Opposite of logarithmic growth
