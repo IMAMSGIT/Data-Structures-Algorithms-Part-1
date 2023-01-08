@@ -1,0 +1,12 @@
+// Each array of integers need 4 bytes memory
+// So, looking up array by index is super fast
+// Also, for this , runtime complexity is O(1)
+// Problem
+// Java and many other language arrays are static 
+// we should specify their size
+// if we don't know the size of array, space will be unused
+// if we add new array, we have to
+// copy previous array and complexity proportionate to O(n)
+// If we want to remove last item , best case, complexity is O(1)
+// But when removing the first item, have to shift total array right to left
+// Its complexity is O(n)

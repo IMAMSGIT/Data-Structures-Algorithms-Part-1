@@ -1,0 +1,9 @@
+// Very basic of creating and initializing it 
+// with values
+// Problem : should know the size of array ahead of time
+public class Main {
+    public static void main(String [] args){
+     int []numbers =new int [3];
+    }
+    
+}
