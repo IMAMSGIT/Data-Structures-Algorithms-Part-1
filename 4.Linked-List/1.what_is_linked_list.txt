@@ -1,0 +1,27 @@
+Used to store items sequentially
+Unlike array it can grow and shrink
+
+Each node holds two pieces of data 
+one is value and other is the address of the next node
+
+each node poins to next node
+first node is called "Head" and last is "Tail"
+
+LookUP->Time complexity
+
+seach a value O(n), as to search all the value
+search by Index O(n), because they are all over the memory
+Unlike array not next to each other
+So, worst is we have to traverse all of them
+
+Insert(at the end) O(1) , the Tail should point the last node
+Insert(at the beginning) O(1) , create a empty node, point to the 2nd node,change head to the first 
+Insert(in the middle) O(n) , we have to find where to add and then update
+
+Delete(from the beginning) O(1), head to point the 2nd node and unlink from the second object
+Delete(from the end) O(n), traverse all, ASA we recognize the last node, we keep reference it as the last node
+then we'll unlink the node and point head to refer the previous node
+
+Delete(from the middle) O(n), we have travel all to find the middle and also the previous one
+then we link the node after the next of the middle node and remove the middle node
+
