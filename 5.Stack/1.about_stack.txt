@@ -1,0 +1,17 @@
+Usage of stack
+- via this undo freature can be implemented
+- compiler
+- arithmetic expression
+- building navigation
+
+ Working principle is
+ Last in first out 
+
+
+ perform 4 operations
+ - push() - add on top
+ - pop() - remove from top
+ - peek() - remove from top but not from stack
+ - isEmpty() - tells either empty or not
+
+ All operation is O(1)
