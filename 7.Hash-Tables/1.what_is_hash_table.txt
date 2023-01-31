@@ -1,0 +1,2 @@
+Just like objects in JS 
+-- key,value pair
