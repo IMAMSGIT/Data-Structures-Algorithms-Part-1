@@ -1,0 +1,15 @@
+Data Sturcture which follows
+FIFO
+Used in
+-printers
+-operating system
+-web servers
+-live support systems
+
+Operations 
+-enqueue(add an item to back)
+-dequeue(add an item to front)
+-peek(getting an item from front without removing)
+-isEmpty
+-isFull
+---- All operations is O(1)
